@@ -1,0 +1,560 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E6192347-8391-4C21-9C81-E2BA1E2E1C09}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CornerSites.Web</RootNamespace>
+    <AssemblyName>CornerSites.Web</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=3.5.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\AjaxControlToolkitNET35\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Anthem, Version=1.5.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\Anthem.dll</HintPath>
+    </Reference>
+    <Reference Include="MessageServices, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MessageServices\bin\Debug\MessageServices.dll</HintPath>
+    </Reference>
+    <Reference Include="MSCaptcha, Version=2.0.3733.36001, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Lib\MSCaptcha.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdsAdmin\Modules\Amenities.ascx.cs">
+      <DependentUpon>Amenities.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\Amenities.ascx.designer.cs">
+      <DependentUpon>Amenities.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\BuilderFloorApartment.ascx.cs">
+      <DependentUpon>BuilderFloorApartment.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\BuilderFloorApartment.ascx.designer.cs">
+      <DependentUpon>BuilderFloorApartment.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\DistanceFromKeyLocations.ascx.cs">
+      <DependentUpon>DistanceFromKeyLocations.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\DistanceFromKeyLocations.ascx.designer.cs">
+      <DependentUpon>DistanceFromKeyLocations.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\FarmHouse.ascx.cs">
+      <DependentUpon>FarmHouse.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\FarmHouse.ascx.designer.cs">
+      <DependentUpon>FarmHouse.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\NewResidentialProjects.ascx.cs">
+      <DependentUpon>NewResidentialProjects.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\NewResidentialProjects.ascx.designer.cs">
+      <DependentUpon>NewResidentialProjects.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\ResidentialApartment.ascx.cs">
+      <DependentUpon>ResidentialApartment.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\ResidentialApartment.ascx.designer.cs">
+      <DependentUpon>ResidentialApartment.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\PostAdsCommon.ascx.cs">
+      <DependentUpon>PostAdsCommon.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\PostAdsCommon.ascx.designer.cs">
+      <DependentUpon>PostAdsCommon.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\PropertyFeatures.ascx.cs">
+      <DependentUpon>PropertyFeatures.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\PropertyFeatures.ascx.designer.cs">
+      <DependentUpon>PropertyFeatures.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\PropertyTermsAndConditions.ascx.cs">
+      <DependentUpon>PropertyTermsAndConditions.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\PropertyTermsAndConditions.ascx.designer.cs">
+      <DependentUpon>PropertyTermsAndConditions.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\ResidentialHouseVilla.ascx.cs">
+      <DependentUpon>ResidentialHouseVilla.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\ResidentialHouseVilla.ascx.designer.cs">
+      <DependentUpon>ResidentialHouseVilla.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\ResidentialPlotFields.ascx.cs">
+      <DependentUpon>ResidentialPlotFields.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\ResidentialPlotFields.ascx.designer.cs">
+      <DependentUpon>ResidentialPlotFields.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\ServicedApartment.ascx.cs">
+      <DependentUpon>ServicedApartment.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\ServicedApartment.ascx.designer.cs">
+      <DependentUpon>ServicedApartment.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\StudioApartment.ascx.cs">
+      <DependentUpon>StudioApartment.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\Modules\StudioApartment.ascx.designer.cs">
+      <DependentUpon>StudioApartment.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmin\PostAds.aspx.cs">
+      <DependentUpon>PostAds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdsAdmin\PostAds.aspx.designer.cs">
+      <DependentUpon>PostAds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgentSearch.aspx.cs">
+      <DependentUpon>AgentSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgentSearch.aspx.designer.cs">
+      <DependentUpon>AgentSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Master\layout.Master.cs">
+      <DependentUpon>layout.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Master\layout.Master.designer.cs">
+      <DependentUpon>layout.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Controls.cs" />
+    <Compile Include="Components\WebConfigSettings.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\AddsSubscription.ascx.cs">
+      <DependentUpon>AddsSubscription.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\AddsSubscription.ascx.designer.cs">
+      <DependentUpon>AddsSubscription.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\AgentSearch.ascx.cs">
+      <DependentUpon>AgentSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\AgentSearch.ascx.designer.cs">
+      <DependentUpon>AgentSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\CityAutoComplete.ashx.cs">
+      <DependentUpon>CityAutoComplete.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\DirectPayment.ascx.cs">
+      <DependentUpon>DirectPayment.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\DirectPayment.ascx.designer.cs">
+      <DependentUpon>DirectPayment.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\LocationAutoComplete.ashx.cs">
+      <DependentUpon>LocationAutoComplete.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Login.ascx.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\Login.ascx.designer.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\MyAccount\MyAds.ascx.cs">
+      <DependentUpon>MyAds.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\MyAccount\MyAds.ascx.designer.cs">
+      <DependentUpon>MyAds.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\MyAccount\MySubscription.ascx.cs">
+      <DependentUpon>MySubscription.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\MyAccount\MySubscription.ascx.designer.cs">
+      <DependentUpon>MySubscription.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\MyAccount\ProfileInfo.ascx.cs">
+      <DependentUpon>ProfileInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\MyAccount\ProfileInfo.ascx.designer.cs">
+      <DependentUpon>ProfileInfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\MyAccount\UserSubscription.ascx.cs">
+      <DependentUpon>UserSubscription.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\MyAccount\UserSubscription.ascx.designer.cs">
+      <DependentUpon>UserSubscription.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\PostRequirement.ascx.cs">
+      <DependentUpon>PostRequirement.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\PostRequirement.ascx.designer.cs">
+      <DependentUpon>PostRequirement.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Register.ascx.cs">
+      <DependentUpon>Register.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\Register.ascx.designer.cs">
+      <DependentUpon>Register.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\ResidentialSearch.ascx.cs">
+      <DependentUpon>ResidentialSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\ResidentialSearch.ascx.designer.cs">
+      <DependentUpon>ResidentialSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\Search.ascx.cs">
+      <DependentUpon>Search.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\Search.ascx.designer.cs">
+      <DependentUpon>Search.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SearchBuilder.ascx.cs">
+      <DependentUpon>SearchBuilder.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SearchBuilder.ascx.designer.cs">
+      <DependentUpon>SearchBuilder.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SearchProjects.ascx.cs">
+      <DependentUpon>SearchProjects.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SearchProjects.ascx.designer.cs">
+      <DependentUpon>SearchProjects.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SearchRequirement.ascx.cs">
+      <DependentUpon>SearchRequirement.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SearchRequirement.ascx.designer.cs">
+      <DependentUpon>SearchRequirement.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SearchResults.ascx.cs">
+      <DependentUpon>SearchResults.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SearchResults.ascx.designer.cs">
+      <DependentUpon>SearchResults.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SubscriptionAgents.ascx.cs">
+      <DependentUpon>SubscriptionAgents.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SubscriptionAgents.ascx.designer.cs">
+      <DependentUpon>SubscriptionAgents.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SubscriptionBuilders.ascx.cs">
+      <DependentUpon>SubscriptionBuilders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SubscriptionBuilders.ascx.designer.cs">
+      <DependentUpon>SubscriptionBuilders.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SubscriptionIndividuals.ascx.cs">
+      <DependentUpon>SubscriptionIndividuals.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SubscriptionIndividuals.ascx.designer.cs">
+      <DependentUpon>SubscriptionIndividuals.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\SubscriptionServicePack.ascx.cs">
+      <DependentUpon>SubscriptionServicePack.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\SubscriptionServicePack.ascx.designer.cs">
+      <DependentUpon>SubscriptionServicePack.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MyAccount.aspx.cs">
+      <DependentUpon>MyAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAccount.aspx.designer.cs">
+      <DependentUpon>MyAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PostRequirement.aspx.cs">
+      <DependentUpon>PostRequirement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PostRequirement.aspx.designer.cs">
+      <DependentUpon>PostRequirement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryWindow.aspx.cs">
+      <DependentUpon>QueryWindow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QueryWindow.aspx.designer.cs">
+      <DependentUpon>QueryWindow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchBuilder.aspx.cs">
+      <DependentUpon>SearchBuilder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchBuilder.aspx.designer.cs">
+      <DependentUpon>SearchBuilder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchProjects.aspx.cs">
+      <DependentUpon>SearchProjects.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchProjects.aspx.designer.cs">
+      <DependentUpon>SearchProjects.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchRequirement.aspx.cs">
+      <DependentUpon>SearchRequirement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchRequirement.aspx.designer.cs">
+      <DependentUpon>SearchRequirement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchResults.aspx.cs">
+      <DependentUpon>SearchResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchResults.aspx.designer.cs">
+      <DependentUpon>SearchResults.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SSL\PaySubscription.aspx.cs">
+      <DependentUpon>PaySubscription.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SSL\PaySubscription.aspx.designer.cs">
+      <DependentUpon>PaySubscription.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Subscription.aspx.cs">
+      <DependentUpon>Subscription.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subscription.aspx.designer.cs">
+      <DependentUpon>Subscription.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Success.aspx.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Success.aspx.designer.cs">
+      <DependentUpon>Success.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CornerSites.Lib\CornerSites.Lib.csproj">
+      <Project>{97D527B5-070F-478C-A8AB-CE0A4918F5B8}</Project>
+      <Name>CornerSites.Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AdsAdmin\Modules\Amenities.ascx" />
+    <Content Include="AdsAdmin\Modules\BuilderFloorApartment.ascx" />
+    <Content Include="AdsAdmin\Modules\DistanceFromKeyLocations.ascx" />
+    <Content Include="AdsAdmin\Modules\FarmHouse.ascx" />
+    <Content Include="AdsAdmin\Modules\NewResidentialProjects.ascx" />
+    <Content Include="AdsAdmin\Modules\ResidentialApartment.ascx" />
+    <Content Include="AdsAdmin\Modules\PostAdsCommon.ascx" />
+    <Content Include="AdsAdmin\Modules\PropertyFeatures.ascx" />
+    <Content Include="AdsAdmin\Modules\PropertyTermsAndConditions.ascx" />
+    <Content Include="AdsAdmin\Modules\ResidentialHouseVilla.ascx" />
+    <Content Include="AdsAdmin\Modules\ResidentialPlotFields.ascx" />
+    <Content Include="AdsAdmin\Modules\ServicedApartment.ascx" />
+    <Content Include="AdsAdmin\Modules\StudioApartment.ascx" />
+    <Content Include="AdsAdmin\PostAds.aspx" />
+    <Content Include="App_Master\layout.Master" />
+    <Content Include="Css\Style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\h2_trigger_a.gif" />
+    <Content Include="Images\toggle_block_btm.gif" />
+    <Content Include="Images\toggle_block_stretch.gif" />
+    <Content Include="Modules\ResidentialSearch.ascx" />
+    <Content Include="Modules\Search.ascx" />
+    <Content Include="Scripts\jqueryMini-1.6.js" />
+    <Content Include="Scripts\jqueryDev-1.6.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Css\jquery.autocomplete.css" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery.autocomplete.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\default.png" />
+    <Content Include="Modules\CityAutoComplete.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AgentSearch.aspx" />
+    <Content Include="Css\css.css" />
+    <Content Include="Css\lightBox.css" />
+    <Content Include="Css\styleMenu.css" />
+    <Content Include="Images\blog_icon.gif" />
+    <Content Include="Images\body_bg.gif" />
+    <Content Include="Images\btn_go.gif" />
+    <Content Include="Images\btn_more.gif" />
+    <Content Include="Images\btn_more_hover.gif" />
+    <Content Include="Images\btn_signup.gif" />
+    <Content Include="Images\bulletArrow.png" />
+    <Content Include="Images\click_bg.gif" />
+    <Content Include="Images\click_bg_hover.gif" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\nav_bg.gif" />
+    <Content Include="Images\nav_hover.gif" />
+    <Content Include="Images\Rupee.png" />
+    <Content Include="Images\top_bg.gif" />
+    <Content Include="Modules\AddsSubscription.ascx" />
+    <Content Include="Modules\AgentSearch.ascx" />
+    <Content Include="Modules\DirectPayment.ascx" />
+    <Content Include="Modules\LocationAutoComplete.ashx" />
+    <Content Include="Modules\Login.ascx" />
+    <Content Include="Modules\MyAccount\MyAds.ascx" />
+    <Content Include="Modules\MyAccount\MySubscription.ascx" />
+    <Content Include="Modules\MyAccount\ProfileInfo.ascx" />
+    <Content Include="Modules\MyAccount\UserSubscription.ascx" />
+    <Content Include="Modules\PostRequirement.ascx" />
+    <Content Include="Modules\Register.ascx" />
+    <Content Include="Modules\SearchBuilder.ascx" />
+    <Content Include="Modules\SearchProjects.ascx" />
+    <Content Include="Modules\SearchRequirement.ascx" />
+    <Content Include="Modules\SearchResults.ascx" />
+    <Content Include="Modules\SubscriptionAgents.ascx" />
+    <Content Include="Modules\SubscriptionBuilders.ascx" />
+    <Content Include="Modules\SubscriptionIndividuals.ascx" />
+    <Content Include="Modules\SubscriptionServicePack.ascx" />
+    <Content Include="MyAccount.aspx" />
+    <Content Include="PostRequirement.aspx" />
+    <Content Include="QueryWindow.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Scripts\CornerSites.js" />
+    <Content Include="Scripts\jquery.dropdownPlain.js" />
+    <Content Include="Scripts\lightBox.js" />
+    <Content Include="SearchBuilder.aspx" />
+    <Content Include="SearchProjects.aspx" />
+    <Content Include="SearchRequirement.aspx" />
+    <Content Include="SearchResults.aspx" />
+    <Content Include="SSL\PaySubscription.aspx" />
+    <Content Include="Subscription.aspx" />
+    <Content Include="Success.aspx" />
+    <Content Include="XML\mail.xml" />
+    <Content Include="Xslts\MyAds.xslt" />
+    <Content Include="Xslts\MySubscription.xslt" />
+    <Content Include="Xslts\SearchAgennt.xslt" />
+    <Content Include="Xslts\SearchBuilder.xslt" />
+    <Content Include="Xslts\SearchProject.xslt" />
+    <Content Include="Xslts\SearchResidential.xslt" />
+    <Content Include="Xslts\SubscriptionDetails.xslt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="Repository\Ads\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50675</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

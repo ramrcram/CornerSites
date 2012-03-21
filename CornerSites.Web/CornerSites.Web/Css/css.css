@@ -1,0 +1,772 @@
+body{
+	width:1010px;
+	height:auto;
+	margin:0 auto;
+	background-image: url(../images/backgroundstick.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+#div{
+width:1010px;
+height:121px;
+margin:auto;
+}
+#div1{
+width:1010px;
+height:93px;
+margin:auto;
+}
+#logo{
+width:279px;
+height:93px;
+float:left;
+}
+.RECIDENTIAL {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	color: #333333;
+}
+
+#login{
+width:295px;
+height:93px;
+float: right;
+}
+#login1{
+width:63px;
+height:93px;
+float: left;
+}
+#login2{
+	width:169px;
+	height:93px;
+	float: left;
+}
+#login3{
+width:1010px;
+height:28px;
+float: left;
+}
+#yelow{
+	width:1010px;
+	height:3px;
+	margin:auto;
+	background-color: #FF7B24;
+}
+#slid{
+width:1010px;
+height:312px;
+margin:auto;
+}
+#search{
+	width:330px;
+	height:312px;
+	float:left;
+	background-image: url(../images/stick11.jpg);
+	background-repeat: repeat-x;
+}
+#slidshow{
+	width:680px;
+	height:312px;
+	float:left;
+	background-image: url(../images/baner.jpg);
+	background-repeat: no-repeat;
+}
+#cdive{
+width:1010px;
+height:800px;
+margin:auto;
+}
+#c2div{
+	width:294px;
+	height:800px;
+	float:left;
+}
+#home{
+width:58px;
+height:29px;
+float:left;
+}
+#home0{
+	width:409px;
+	height:29px;
+	float:left;
+}
+#search0{
+	width:110px;
+	height:29px;
+	float:left;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align:center;
+}
+#property{
+width:109px;
+height:29px;
+float:left;
+}
+#requ{
+width:146px;
+height:29px;
+float:left;
+}
+#adver{
+width:105px;
+height:29px;
+float:left;
+}
+#login01{
+width:71px;
+height:29px;
+float:left;
+}
+#c2div1{
+	width:294px;
+	height:109px;
+	float:left;
+	background-image: none;
+	background-repeat: no-repeat;
+}
+#options{
+width:330px;
+height:22px;
+float:left;
+}
+#options1{
+width:80px;
+height:22px;
+float:left;
+}
+#options02{
+width:84px;
+height:22px;
+float:left;
+}
+#options03{
+width:56px;
+height:22px;
+float:left;
+}
+#options04{
+width:43px;
+height:22px;
+float:left;
+}
+#options05{
+width:67px;
+height:22px;
+float:left;
+}
+#left01{
+width:294px;
+height:109px;
+float:left;
+}
+
+#botem01{
+width:1010px;
+height:158px;
+margin:auto;
+background-color:#d3d3d3;
+}
+#botem02{
+	width:1010px;
+	height:158px;
+	float:left;
+	
+}
+#botem03{
+	width:auto;
+	height:158px;
+	margin:auto;
+}
+
+#overview{
+	width:646px;
+	height:142px;
+	float:left;
+}
+#overview1{
+	width:646px;
+	height:28px;
+	float:left;
+}
+#overview2{
+	width:636px;
+	height:114px;
+	float:left;
+	padding-left:10px;
+}
+#feedback1{
+	width:364px;
+	height:142px;
+	float:left;
+}
+#feedback2{
+	width:10px;
+	height:142px;
+	float:left;
+	background-image: url(../images/stick2.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#feedback3{
+	width:339px;
+	height:24px;
+	float:left;
+	padding-top:30px;
+	padding-left:5px;
+	padding-right:10px;
+}
+#feedback4{
+	width:100px;
+	height:86px;
+	float:left;
+	padding-right:10px;
+}
+#feedback5{
+	width:234px;
+	height:86px;
+	float:left;
+	padding-right:10px;
+}
+#botemf{
+	width:461px;
+	height:237px;
+	float:left;
+	background-image: url(../images/botemback.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+#botems{
+	width:12px;
+	height:253px;
+	float:left;
+}
+#botems0333{
+	width:auto;
+	height:253px;
+	margin:auto
+	background-color:#000000;
+}
+#bgfeedback{
+	width:461px;
+	height:252px;
+	float:left;
+	background-image: url(../images/botemback.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#botemspnggg{
+	width:auto;
+	height:253px;
+	float:left;
+}
+#related{
+	width:217px;
+	height:253px;
+	float:left;
+}
+#related12{
+	width:155px;
+	height:253px;
+	float:left;
+}
+#related13{
+	width:153px;
+	height:253px;
+	float:left;
+}
+#buy{
+	width:320px;
+	height:28px;
+	float:left;
+	padding-left:10px;
+}
+
+#buyf{
+	width:143px;
+	height:23px;
+	float:left;
+	padding-top:5PX;
+}
+#buyf1{
+	width:81px;
+	height:28px;
+	float:left;
+}
+#buyf2{
+	width:159px;
+	height:28px;
+	float:left;
+}
+#buyf1-3{
+	width:70px;
+	height:28px;
+	float:left;
+}
+#buyf1-4{
+	width:30px;
+	height:28px;
+	float:left;
+}
+#relatedicon{
+	width:217px;
+	height:87px;
+	float:left;
+}
+#relatediconcontent{
+	width:217px;
+	height:166px;
+	float:left;
+}
+#relatediconcontent1{
+	width:217px;
+	height:19px;
+	float:left;
+}
+#midilecontent{
+	width:1010px;
+	height:300px;
+	margin:auto;
+}
+#welcome{
+	width:696px;
+	height:280px;
+	float:left;
+	background-image: url(../images/welcome.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+#divaider{
+	width:15px;
+	height:800px;
+	float:left;
+	
+}
+#welcomecc{
+	width:696px;
+	height:150px;
+	float:left;
+	
+}
+#welcomeccontent{
+	width:665px;
+	height:202px;
+	margin:auto;
+	
+}
+#bar22t{
+	width:697px;
+	height:50px;
+	float:right;
+	
+}
+#WELCOMECONNNTENTIMG{
+	width:665px;
+	height:99px;
+	float:left;	
+}
+#WELCOMECONNNTENTIMG2{
+	width:665px;
+	height:103px;
+	float:left;	
+}
+#WELCOMECONNNTENTIMG3{
+	width:163px;
+	height:99px;
+	float:left;	
+}
+#WELCOMECONNNTENTIMG4{
+	width:4px;
+	height:99px;
+	float:left;	
+}
+#WELCOMECONNNTENTIMG5{
+	width:665px;
+	height:2px;
+	float:left;	
+}
+#WELCOMECONNNTENTIMG6{
+	width:665px;
+	height:101px;
+	float:left;	
+}
+#WELCOMECONNNTENTIMG7{
+	width:162px;
+	height:101px;
+	float:left;	
+}
+#WELCOMECONNNTENTIMG8{
+	width:4px;
+	height:101px;
+	float:left;	
+}
+#serchpage{
+	width:1010px;
+	height:50px;
+	margin:auto;
+	background-color: #f2c224;
+	padding-top:5px;
+}
+#buyrentoption{
+height:50px;
+width:100px;
+float:left;
+}
+#buyrentoption1{
+height:25px;
+width:75px;
+float:left;
+padding-left:5px;
+}
+#type{
+height:40px;
+width:120px;
+float:left;
+text-align:left;
+padding-left:5px;
+
+}
+#beadroom{
+height:40px;
+width:150px;
+float:left;
+text-align:left;
+padding-left:5px;
+}
+#subcontent{
+height:800px;
+width:1010px;
+margin:auto;
+
+}
+
+#type1{
+height:40px;
+width:80px;
+float:left;
+padding-left:10px;
+padding-top:10px;
+text-align:center;
+}
+#welcomeccserch{
+	width:696px;
+	height:259px;
+	float:left;
+	}
+.home {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #333333;
+}
+
+	
+	#welcome11{
+	width:696px;
+	height:34px;
+	float:left;
+	}
+#welcome12{
+	width:696px;
+	height:10px;
+	float:left;
+	
+	}
+	#welcome13{
+	width:696px;
+	height:185px;
+	float:left;
+	
+	
+	}
+		
+	#welcome14{
+	width:450px;
+	height:136px;
+	float:left;
+	padding-left:5px;
+	
+	}
+	#welcome15{
+	width:241px;
+	height:136px;
+	float:left;
+	
+	}
+	#welcome16{
+	width:696px;
+	height:16px;
+	float:left;
+	
+	}
+.WATHEWWW {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+
+	#welcome17{
+	width:696px;
+	height:26px;
+	float:left;
+
+	}
+.MATHEWWWWW {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+
+#welcome19{
+	width:294px;
+	height:20px;
+	float:left;
+	
+}
+#welcome20{
+	width:696px;
+	height:30px;
+	float:left;
+	
+}
+	#welcome111{
+	width:690px;
+	height:30px;
+	margin:auto;
+	background-color: #CCCCCC;
+	}
+#welcome211{
+	width:50px;
+	height:25px;
+	float:left;
+	padding-top:5px;
+	
+}
+#welcome212{
+	width:110px;
+	height:136px;
+	float:left;
+	padding-left:10px;
+	background-image: url(../images/stick2.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	
+}
+#welcome213{
+	width:500px;
+	height:29px;
+	float:left;
+	padding-top:5PX;	
+}
+#welcome214{
+	width:1010px;
+	height:21px;
+	float:left;
+	
+}
+#welcome215{
+	width:105px;
+	height:21px;
+	float:left;
+	
+}
+#welcome216{
+	width:126px;
+	height:21px;
+	float:left;
+	
+}
+#welcome217{
+	width:97px;
+	height:21px;
+	float:left;
+	
+}
+#welcome218{
+	width:99px;
+	height:21px;
+	float:left;
+	
+}
+#welcome219free{
+	width:120px;
+	height:21px;
+	float:left;
+	
+}
+#welcome220free{
+	width:135px;
+	height:21px;
+	float:left;
+	
+}
+#welcome221free{
+	width:135px;
+	height:21px;
+	float:left;
+	
+}
+#welcome222free{
+	width:1010px;
+	height:27px;
+	float:left;
+	
+}
+#welcome223free{
+	width:105px;
+	height:27px;
+	float:left;
+	
+}
+#welcome224free{
+	width:126px;
+	height:27px;
+	float:left;
+	
+}
+#welcome225free{
+	width:97px;
+	height:27px;
+	float:left;
+	
+}
+#welcome226free{
+	width:99px;
+	height:27px;
+	float:left;
+	
+}
+#welcome227free{
+	width:26px;
+	height:27px;
+	float:left;
+	
+}
+#welcome228free{
+	width:94px;
+	height:27px;
+	float:left;
+	
+}
+#welcome229free{
+	width:135px;
+	height:27px;
+	float:left;
+	
+}
+#welcome300free{
+	width:135px;
+	height:27px;
+	float:left;
+	
+}
+#welcome301free{
+	width:55px;
+	height:27px;
+	float:left;
+	
+}
+#welcome302free{
+	width:50px;
+	height:27px;
+	float:left;
+	
+}
+#SEARCHFILLPAGE{
+	width:696px;
+	height:45px;
+	float:left;
+	
+}
+#SEARCHFILLPAGE1{
+	width:696px;
+	height:39px;
+	float:left;
+	text-align:center;
+	padding-top:20PX;
+	background-color: #999999;
+	
+}
+#SEARCHFILLPAGE2{
+	width:696px;
+	height:46px;
+	float:left;
+	
+}
+#SEARCHFILLPAGE3{
+	width:25px;
+	height:46px;
+	float:left;
+	
+}
+#SEARCHFILLPAGE4{
+	width:73px;
+	height:46px;
+	float:left;
+	text-align:center;
+	
+}
+#SEARCHFILLPAGE5{
+	width:167px;
+	height:46px;
+	float:left;
+	
+}
+#SEARCHFILLPAGE6{
+	width:167px;
+	height:46px;
+	float:left;
+	text-align:center;
+	
+}
+#SEARCHFILLPAGE7{
+	width:300px;
+	height:36px;
+	float:left;
+	padding-top:10PX;
+	
+	
+}
+#SEARCHFILLPAGE8{
+	width:1010px;
+	height:200px;
+	float:left;
+	}
+	#SEARCHFILLPAGE9{
+	width:294px;
+	height:200px;
+	float:left;
+	}
+	#SEARCHFILLPAGE10{
+	width:45px;
+	height:34px;
+	float:left;
+	}
+	#SEARCHFILLPAGE11{
+	width:255px;
+	height:34px;
+	float:left;
+	text-align:center;
+	}
+	#SEARCHFILLPAGE12{
+	width:15px;
+	height:300px;
+	float:left;
+	
+	}
+		#SEARCHFILLPAGE13{
+	width:294px;
+	height:300px;
+	float:left;
+	
+	}
+			#SEARCHFILLPAGE14{
+	width:600px;
+	height:36px;
+	float:left;
+	padding-top:10px;
+	
+	}

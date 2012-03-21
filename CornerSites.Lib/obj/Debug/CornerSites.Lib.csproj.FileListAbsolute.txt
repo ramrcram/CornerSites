@@ -1,0 +1,16 @@
+D:\PROJECT\CornerSites\CornerSites.Lib\bin\Debug\CornerSites.Lib.dll.config
+D:\PROJECT\CornerSites\CornerSites.Lib\bin\Debug\CornerSites.Lib.dll
+D:\PROJECT\CornerSites\CornerSites.Lib\bin\Debug\CornerSites.Lib.pdb
+D:\PROJECT\CornerSites\CornerSites.Lib\obj\Debug\ResolveAssemblyReference.cache
+D:\PROJECT\CornerSites\CornerSites.Lib\obj\Debug\CornerSites.Lib.dll
+D:\PROJECT\CornerSites\CornerSites.Lib\obj\Debug\CornerSites.Lib.pdb
+D:\PROJECT\CornerSites\CornerSites.Lib\bin\Debug\log4net.dll
+D:\PROJECT\CornerSites\CornerSites.Lib\bin\Debug\paypal_base.dll
+E:\CornerSites\CornerSites.Lib\bin\Debug\CornerSites.Lib.dll.config
+E:\CornerSites\CornerSites.Lib\bin\Debug\CornerSites.Lib.dll
+E:\CornerSites\CornerSites.Lib\bin\Debug\CornerSites.Lib.pdb
+E:\CornerSites\CornerSites.Lib\bin\Debug\log4net.dll
+E:\CornerSites\CornerSites.Lib\bin\Debug\paypal_base.dll
+E:\CornerSites\CornerSites.Lib\obj\Debug\ResolveAssemblyReference.cache
+E:\CornerSites\CornerSites.Lib\obj\Debug\CornerSites.Lib.dll
+E:\CornerSites\CornerSites.Lib\obj\Debug\CornerSites.Lib.pdb

@@ -1,0 +1,171 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="layout.master.cs" Inherits="CornerSites.Web.App_Master.layout" %>
+
+<%@ Register TagPrefix="CornerSites" TagName="Login" Src="~/Modules/Login.ascx" %>
+<%@ Register TagPrefix="CornerSites" TagName="Search" Src="~/Modules/Search.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link type="text/css" href="../Css/Style.css" rel='stylesheet' />
+    <link type="text/css" href="../Css/jquery.autocomplete.css" rel='stylesheet' />
+    <link type="text/css" href="../Css/css.css" rel='stylesheet' />
+
+    <script src="../Scripts/jqueryDev-1.6.js" type="text/javascript" language="javascript"></script>
+
+    <script src="../Scripts/CornerSites.js" type="text/javascript" language="javascript"></script>
+
+    <script src="../Scripts/jquery.autocomplete.js" type="text/javascript" language="javascript"></script>
+
+    <script type="text/javascript" language="javascript" src="../Scripts/jquery.dropdownPlain.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <CornerAjax:ToolkitScriptManager ID="ScriptManager1" runat="server">
+    </CornerAjax:ToolkitScriptManager>
+    <div>
+        <!--top start here -->
+        <div id="div">
+            <div id="div1">
+                <div id="logo">
+                    <div align="center">
+                        <img src="images/logo.png" width="211" height="93" /></div>
+                </div>
+                <div id="login">
+                    <% if (CornerSites.Lib.Utils.CurrentSession.CurrentUserID == 0)
+                       { %>
+                    <div id="login1">
+                        <p>
+                            <a href="#dialog1" name="modal">Login</a>
+                        </p>
+                    </div>
+                    <div id="Div2">
+                        <p>
+                            <a href="../Register.aspx">Register</a> 
+                        </p>
+                    </div>
+                    <%} %>
+                    <% else
+                        { %>
+                    <div>Hi
+                        <asp:Label ID="lblLoginAs" runat="server"></asp:Label>
+                    </div>
+                    <div>
+                        <asp:LinkButton id="bntLogOut" OnClick="bntLogOut_Click" runat="server"></asp:LinkButton>
+                    </div>
+                    <%} %>
+                    <div id="login2">
+                        <br />
+                        <img src="images/f.jpg" width="35" height="28" /><img src="images/in.jpg" width="37"
+                            height="28" /><img src="images/t.jpg" width="43" height="28" /></div>
+                </div>
+            </div>
+            <div id="login3">
+                <div id="home0">
+                </div>
+                <div id="home">
+                    <img src="images/home.png" width="58" height="28" /></div>
+                <div id="search0">
+                    <img src="images/search.png" width="110" height="29" /></div>
+                <div id="property">
+                    <img src="images/propery.jpg" width="109" height="29" /></div>
+                <div id="requ">
+                    <img src="images/requirments.jpg" width="146" height="29" /></div>
+                <div id="adver">
+                    <img src="images/adver.jpg" width="105" height="29" /></div>
+                <div id="login01">
+                    <img src="images/login.jpg" width="71" height="29" /></div>
+            </div>
+        </div>
+        <div id="yelow">
+        </div>
+        <!--top end here -->
+        <!--body start here -->
+        <div>
+            <div>
+                <div id="body">
+                    <div id="showimg" class="LB-white-content-Video" style="width: auto;">
+                        <div id="Item">
+                            <asp:Image ID="imgLoading" runat="server" ImageUrl="~/Images/loading.gif" AlternateText="Loading..." />
+                        </div>
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <!--body end here -->
+        <!-- Footer --->
+        <div id="midilecontent">
+        </div>
+        <div id="botem01">
+            <div id="botem02">
+                <div id="overview">
+                    <div id="overview1">
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="style1">Overview</span></div>
+                    <div id="overview2">
+                        <div align="justify">
+                            <br />
+                            Bharti Realty Limited, a proud member of Bharti Enterprises, is a vibrant and dynamic
+                            real estate development company with expanding interests in commercial, retail and
+                            residential real estate.Bharti RealtBharti Realty Limited, a proud member of Bharti
+                            Enterprises, is a vibrant and dynamic real estate development company with expanding
+                            interests in commercial, retail and residential real estate.Bharti Realt</div>
+                    </div>
+                </div>
+                <div id="feedback1">
+                    <div id="feedback2">
+                    </div>
+                    <div class="style1" id="feedback3">
+                        Your feed back</div>
+                    <div id="feedback4">
+                        <img src="images/Feedbackicon.png" width="75" height="84" /></div>
+                    <div id="feedback5">
+                        Content for id "feedback5" Goes HereBharti Realty Limited, a proud member of Bharti
+                        Enterprises, is a vibrant and dynamic re</div>
+                </div>
+            </div>
+            <div id="botem03">
+            </div>
+        </div>
+        <div id="botems0333">
+            <div id="bgfeedback">
+            </div>
+            <div id="botemspnggg">
+                <img src="images/fedbackpnggg.png" /></div>
+            <div id="related">
+                <div id="relatedicon">
+                    <img src="images/related.jpg" width="209" height="87" /></div>
+                <div id="relatediconcontent">
+                    <div id="relatediconcontent1">
+                    </div>
+                    <div id="relatediconcontent1">
+                    </div>
+                    <div id="relatediconcontent1">
+                    </div>
+                    <div id="relatediconcontent1">
+                    </div>
+                </div>
+            </div>
+            <div id="botemspnggg">
+                <img src="images/fedbackpnggg.png" /></div>
+            <div id="related12">
+            </div>
+            <div id="related13">
+            </div>
+        </div>
+        <!-- End Footer --->
+    </div>
+    <% if (CornerSites.Lib.Utils.CurrentSession.CurrentUserID == 0)
+       { %>
+    <div>
+        <CornerSites:Login ID="cntLogin" runat="server"></CornerSites:Login>
+    </div>
+    <%} %>
+    <div id="mask">
+    </div>
+    <div id="fade" class="LB-black-overlay">
+    </div>
+    </form>
+</body>
+</html>

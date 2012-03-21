@@ -1,0 +1,5 @@
+D:\PROJECT\CornerSites\MessageServices\bin\Debug\MessageServices.dll
+D:\PROJECT\CornerSites\MessageServices\bin\Debug\MessageServices.pdb
+D:\PROJECT\CornerSites\MessageServices\obj\Debug\ResolveAssemblyReference.cache
+D:\PROJECT\CornerSites\MessageServices\obj\Debug\MessageServices.dll
+D:\PROJECT\CornerSites\MessageServices\obj\Debug\MessageServices.pdb
